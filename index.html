@@ -32,38 +32,51 @@
                   font-family: "Noto Serif", serif;
             }
 
-            /* .container {
-                  background-color: rgba(197, 197, 240, 0.158);
+            .container-hidden {
+                  display: none;
+                  /* visibility: hidden; */
+            }
+
+            /* .container-visible {
+                  display: inline;
             } */
       </style>
 </head>
 
 <body class="">
       <header class="w-[80%] mx-auto">
-            <nav class="flex justify-between mt-8 border border-red-500">
-                  <figure>
+            <nav class="flex justify-between mt-8">
+                  <figure class="">
                         <img src="./assets/logo.png" alt="">
                   </figure>
-                  <ul class="flex gap-16 justify-center items-center text-[#8987A1]">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">About us</a></li>
+                  <ul class="flex md:gap-16 justify-center items-center text-[#8987A1] inter-font">
+                        <li class="container-hidden"><a href="#">Home</a></li>
+                        <li class="container-hidden"><a href="#">Shop</a></li>
+                        <li class="container-hidden"><a href="#">About us</a></li>
                         <li><i class="fa-solid fa-cart-shopping"></i>
                               <a href="#">Cart ($56)</a>
                         </li>
                   </ul>
             </nav>
             <!-- banner section -->
-            <div class="border border-blue-800 mt-20 flex justify-end">
-                  <div class="border border-black">
-                        <h1>ALWAYS FRESH</h1>
-                        <h1>FLOWERS</h1>
-                        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+            <div
+                  class="mt-20 flex justify-between items-end h-96 container-hidden flex-col-reverse md:flex-wrap md:content-between">
+                  <div class="md:w-1/2">
+                        <h1 class="md:text-6xl text-2xl font-bold noto-serif-font text-[#000000] ">ALWAYS <span
+                                    class="md:text-6xl text-2xl font-bold noto-serif-font text-[#E95A08]">FRESH</span>
+                        </h1>
+                        <h1 class="md:text-6xl text-2xl font-bold noto-serif-font text-[#E95A08] md:mt-4 mt-2">FLOWERS
+                        </h1>
+                        <p class="inter-font text-[#00000080] md:w-[95%] md:mt-6 mt-2">Indulge your senses with the
+                              beauty and
+                              fragrance
+                              of our fresh flower
+                              shop. From classic
                               roses to
                               exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
                         </p>
                   </div>
-                  <figure class="border border-green-700">
+                  <figure class="mb-6 md:mb-0 border border-dashed border-gray-300">
                         <img src="./assets/hero-flower.png" alt="">
                   </figure>
             </div>
