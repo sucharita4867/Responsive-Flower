@@ -31,6 +31,13 @@
             .noto-serif-font {
                   font-family: "Noto Serif", serif;
             }
+
+            /* .bg-img {
+                  background-image: url(./assets/news-letter-bg.png);
+                  height: 533px;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+            } */
       </style>
 </head>
 
@@ -72,9 +79,9 @@
                   </figure>
             </div>
       </header>
-      <main class="w-[80%] mx-auto mt-20">
+      <main class="mt-20">
             <!-- Our Plants-->
-            <section class="border border-black">
+            <section class="w-[80%] mx-auto ">
                   <h1 class=" noto-serif-font md:text-6xl text-2xl text-[#000000] text-center font-bold"><span
                               class="md:text-6xl text-2xl text-[#E95A08] text-center font-bold">Our</span> Plants </h1>
                   <div class="text-center flex justify-center mt-4">
@@ -190,12 +197,12 @@
                   </div>
             </section>
             <!-- Flower & Plants Lover -->
-            <section class="border border-red-700 mt-20 md:flex justify-between items-center gap-10">
+            <section class="w-[80%] mx-auto mt-20 md:flex justify-between items-center gap-10">
                   <div>
                         <img src="./assets/flower-store.png" alt="">
                   </div>
                   <div class="md:w-[50%]">
-                        <h1 class="noto-serif-font md:text-6xl text-2xl  font-bold  noto-serif-font">
+                        <h1 class="noto-serif-font md:text-6xl text-2xl  font-bold  noto-serif-font mt-6 md:mt-0">
                               Flower & Plants
                               Lover</h1>
                         <ul class="list-disc md:pl-14 md:text-2xl mt-4 text-[#00000080] inter-font">
@@ -208,6 +215,19 @@
                                     classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                         </ul>
                   </div>
+            </section>
+            <!-- Join the colorful Bunch -->
+            <section
+                  class="bg-[url('/assets/news-letter-bg.png')] bg-cover bg-center md:h-[36rem] h-[20rem] w-full mt-20 border border-black flex justify-center items-center flex-col">
+                  <h1 class="md:text-6xl text-2xl noto-serif-font text-[#FFFFFF] font-bold md:mb-8 mb-4">Join
+                        the colorful
+                        Bunch
+                  </h1>
+                  <from class="flex">
+                        <input class="inter-font pl-4 md:py-4 md:pr-[34rem]" type="email" placeholder="Write email"
+                              name="email" id="">
+                        <button class="inter-font bg-[#E95A08] text-white px-6 py-2">Subscribe</button>
+                  </from>
             </section>
       </main>
       <footer></footer>
