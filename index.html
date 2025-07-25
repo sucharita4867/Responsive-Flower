@@ -31,19 +31,12 @@
             .noto-serif-font {
                   font-family: "Noto Serif", serif;
             }
-
-            /* .bg-img {
-                  background-image: url(./assets/news-letter-bg.png);
-                  height: 533px;
-                  background-repeat: no-repeat;
-                  background-size: cover;
-            } */
       </style>
 </head>
 
 <body class="">
       <header class="w-[80%] mx-auto">
-            <nav class="flex justify-between mt-8">
+            <nav class="flex justify-between mt-8 border border-red-700">
                   <figure class="">
                         <img src="./assets/logo.png" alt="">
                   </figure>
@@ -58,7 +51,7 @@
             </nav>
             <!-- banner section -->
             <div
-                  class="mt-20 flex justify-between items-end h-96 container-hidden flex-col-reverse md:flex-wrap md:content-between">
+                  class="mt-20 flex justify-between items-end h-96 container-hidden flex-col-reverse md:flex-wrap md:content-between border border-green-800">
                   <div class="md:w-1/2">
                         <h1 class="md:text-6xl text-2xl font-bold noto-serif-font text-[#000000] ">ALWAYS <span
                                     class="md:text-6xl text-2xl font-bold noto-serif-font text-[#E95A08]">FRESH</span>
@@ -74,7 +67,7 @@
                               exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
                         </p>
                   </div>
-                  <figure class="mb-6 md:mb-0 border border-dashed border-gray-300">
+                  <figure class="mb-6 md:mb-0 border  border-red-800">
                         <img src="./assets/hero-flower.png" alt="">
                   </figure>
             </div>
@@ -95,8 +88,6 @@
                               flower shop. From classic roses to
                               exotic blooms, we offer a wide variety of fresh.</p>
                   </div>
-                  <!-- card container -->
-                  <!-- mt-8 flex flex-wrap gap-6 justify-center md:justify-between -->
                   <div class="mt-8 grid md:grid-cols-4 grid-cols-2 gap-6 md:justify-between justify-items-center">
                         <div class="text-center inter-font">
                               <figure>
@@ -197,15 +188,16 @@
                   </div>
             </section>
             <!-- Flower & Plants Lover -->
-            <section class="w-[80%] mx-auto mt-20 md:flex justify-between items-center gap-10">
+            <section class="w-[80%] mx-auto mt-20 md:flex justify-between items-center gap-10 border border-red-600">
                   <div>
                         <img src="./assets/flower-store.png" alt="">
                   </div>
                   <div class="md:w-[50%]">
-                        <h1 class="noto-serif-font md:text-6xl text-2xl  font-bold  noto-serif-font mt-6 md:mt-0">
-                              Flower & Plants
+                        <h1 class="noto-serif-font md:text-6xl text-2xl font-bold noto-serif-font mt-6 md:mt-0">
+                              Flower &
+                              Plants
                               Lover</h1>
-                        <ul class="list-disc md:pl-14 md:text-2xl mt-4 text-[#00000080] inter-font">
+                        <ul class="list-disc pl-8 md:pl-14 md:text-2xl mt-4 text-[#00000080] inter-font">
                               <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From
                                     classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                               <li class="my-2">Indulge your senses with the beauty and fragrance of our fresh flower
@@ -216,9 +208,49 @@
                         </ul>
                   </div>
             </section>
+            <!-- Latest  Deals -->
+            <section class="border border-black mt-20 text-center">
+                  <h1 class="noto-serif-font md:text-6xl text-2xl text-[#000000] text-center font-bold"><span
+                              class="md:text-6xl text-2xl text-[#E95A08] text-center font-bold">Latest</span>
+                        Deals</h1>
+                  <div class="text-center flex justify-center mt-4">
+                        <p class="text-[#00000080] inter-font text-center text-2xl md:w-[80%]">Indulge your senses with
+                              the beauty and fragrance of our fresh flower shop. From classic
+                              roses to
+                              exotic blooms, we offer a wide variety of fresh.</p>
+                  </div>
+                  <div class="mt-10 grid grid-cols-3">
+                        <!-- 60 -->
+                        <div class="border border-green-800">
+                              <h1>60% Off | Bloom Plant</h1>
+                              <p>Shop Now</p>
+                        </div>
+                        <div class="border border-green-800">
+                              <h1>25% Off | Zabo Plant</h1>
+                              <p>Shop Now</p>
+                        </div>
+                        <div class="border border-green-800">
+                              <h1>25% Off | Zabo Plant</h1>
+                              <p>Shop Now</p>
+                        </div>
+                        <!-- 30 -->
+                        <div class="border border-green-800">
+                              <h1>30% Off | Ana Plant</h1>
+                              <p>Shop Now</p>
+                        </div>
+                        <div class="border border-green-800">
+                              <h1>25% Off | Zabo Plant</h1>
+                              <p>Shop Now</p>
+                        </div>
+                        <div class="border border-green-800">
+                              <h1>25% Off | Zabo Plant</h1>
+                              <p>Shop Now</p>
+                        </div>
+                  </div>
+            </section>
             <!-- Join the colorful Bunch -->
             <section
-                  class="bg-[url('/assets/news-letter-bg.png')] bg-cover bg-center md:h-[36rem] h-[20rem] w-full mt-20 border border-black flex justify-center items-center flex-col">
+                  class="bg-[url('/assets/news-letter-bg.png')] bg-cover bg-center md:h-[36rem] h-[20rem] w-full mt-20 flex justify-center items-center flex-col">
                   <h1 class="md:text-6xl text-2xl noto-serif-font text-[#FFFFFF] font-bold md:mb-8 mb-4">Join
                         the colorful
                         Bunch
@@ -230,7 +262,44 @@
                   </from>
             </section>
       </main>
-      <footer></footer>
+      <footer class=" py-16">
+            <section class="flex w-[80%] mx-auto md:justify-between md:flex-row flex-col">
+                  <div class="">
+                        <figure>
+                              <img src="./assets/logo.png" alt="">
+                        </figure>
+                        <p class="text-2xl text-[#00000080] mt-2 md:w-80">Indulge your senses with
+                              the
+                              beauty and fragrance of
+                              our fresh flower shop.
+                        </p>
+                  </div>
+                  <ul class="grid items-center text-[#6B7280] 
+                        .inter-font mt-6 md:mt-0 gap-4 md:gap-0">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Contact Us</a></li>
+                  </ul>
+                  <ul class="grid items-center justify-start mt-6 md:mt-0 text-[#6B7280] 
+                        .inter-font gap-4 md:gap-0">
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Help Center</a></li>
+                  </ul>
+                  <div class="">
+                        <figure class="flex gap-6 mt-6 md:mt-0">
+                              <img src="./assets/icon-linkedin.png" alt="">
+                              <img src="./assets/icon-twitter.png" alt="">
+                              <img src="./assets/icon-facebook.png" alt="">
+                              <img src="./assets/icon-youtube.png" alt="">
+                        </figure>
+                  </div>
+            </section>
+      </footer>
 </body>
 
 </html>
