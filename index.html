@@ -78,7 +78,7 @@
                   <h1 class=" noto-serif-font md:text-6xl text-2xl text-[#000000] text-center font-bold"><span
                               class="md:text-6xl text-2xl text-[#E95A08] text-center font-bold">Our</span> Plants </h1>
                   <div class="text-center flex justify-center mt-4">
-                        <p class="text-[#00000080] inter-font text-center text-2xl md:w-[80%]">
+                        <p class="text-[#00000080] inter-font text-center text-2xl mx-auto  md:w-[80%]">
                               Indulge your
                               senses
                               with the
@@ -188,63 +188,69 @@
                   </div>
             </section>
             <!-- Flower & Plants Lover -->
-            <section class="w-[80%] mx-auto mt-20 md:flex justify-between items-center gap-10 border border-red-600">
-                  <div>
-                        <img src="./assets/flower-store.png" alt="">
-                  </div>
-                  <div class="md:w-[50%]">
-                        <h1 class="noto-serif-font md:text-6xl text-2xl font-bold noto-serif-font mt-6 md:mt-0">
-                              Flower &
-                              Plants
-                              Lover</h1>
-                        <ul class="list-disc pl-8 md:pl-14 md:text-2xl mt-4 text-[#00000080] inter-font">
-                              <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From
-                                    classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                              <li class="my-2">Indulge your senses with the beauty and fragrance of our fresh flower
-                                    shop. From
-                                    classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                              <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From
-                                    classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        </ul>
+            <section class="w-[80%] mx-auto mt-[10rem] relative">
+                  <!-- batch image -->
+                  <figure class="w-[12rem] absolute top-[-5rem] left-[24rem] hidden sm:inline">
+                        <img src="./assets/trusted-badge.png" alt="">
+                  </figure>
+                  <!-- content container -->
+                  <div class="md:flex justify-between items-center gap-10 ">
+                        <!-- image -->
+                        <div>
+                              <img src="./assets/flower-store.png" alt="">
+                        </div>
+                        <!-- task -->
+                        <div class="md:w-[50%]">
+                              <h1 class="noto-serif-font md:text-6xl text-2xl font-bold noto-serif-font mt-6 md:mt-0">
+                                    Flower
+                                    <span class="md:text-6xl text-2xl text-[#E95A08] text-center font-bold">&</span>
+                                    Plants
+                                    <span class="md:text-6xl text-2xl text-[#E95A08] text-center font-bold">Lover</span>
+                              </h1>
+                              <ul class="list-disc pl-8 md:pl-14 md:text-2xl mt-4 text-[#00000080] inter-font">
+                                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                                          classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                                    <li class="my-2">Indulge your senses with the beauty and fragrance of our fresh
+                                          flower
+                                          shop. From
+                                          classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                                          classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                              </ul>
+                        </div>
                   </div>
             </section>
             <!-- Latest  Deals -->
-            <section class="border border-black mt-20 text-center">
+            <section class="mt-20 text-center w-[80%] mx-auto">
                   <h1 class="noto-serif-font md:text-6xl text-2xl text-[#000000] text-center font-bold"><span
                               class="md:text-6xl text-2xl text-[#E95A08] text-center font-bold">Latest</span>
                         Deals</h1>
-                  <div class="text-center flex justify-center mt-4">
-                        <p class="text-[#00000080] inter-font text-center text-2xl md:w-[80%]">Indulge your senses with
+                  <div class="text-center flex justify-center mt-4 mx-auto w-[90%] md:w-[80%]">
+                        <p class="text-[#00000080] inter-font text-center text-2xl">
+                              Indulge your senses
+                              with
                               the beauty and fragrance of our fresh flower shop. From classic
                               roses to
                               exotic blooms, we offer a wide variety of fresh.</p>
                   </div>
-                  <div class="mt-10 grid grid-cols-3">
+                  <div class="mt-10 grid grid-cols-3 text-white md:gap-6 gap-4">
                         <!-- 60 -->
-                        <div class="border border-green-800">
-                              <h1>60% Off | Bloom Plant</h1>
-                              <p>Shop Now</p>
+                        <div
+                              class="bg-[url('/assets/deal-bloom.png')] bg-cover bg-center h-[10rem] rounded-lg flex flex-col items-center justify-center col-span-3 md:col-auto">
+                              <h1 class="text-xl font-bold noto-serif-font">60% Off | Bloom Plant</h1>
+                              <p class="inter-font underline underline-offset-4 mt-2">Shop Now</p>
                         </div>
-                        <div class="border border-green-800">
-                              <h1>25% Off | Zabo Plant</h1>
-                              <p>Shop Now</p>
-                        </div>
-                        <div class="border border-green-800">
-                              <h1>25% Off | Zabo Plant</h1>
-                              <p>Shop Now</p>
+                        <!-- 25 -->
+                        <div
+                              class="bg-[url('/assets/deal-zabo.png')] bg-cover bg-center md:col-span-2 col-span-3 row-span-2  flex flex-col items-center justify-center  rounded-lg h-[10rem] md:h-auto">
+                              <h1 class="text-xl font-bold noto-serif-font">25% Off | Zabo Plant</h1>
+                              <p class="inter-font underline underline-offset-4 mt-2">Shop Now</p>
                         </div>
                         <!-- 30 -->
-                        <div class="border border-green-800">
-                              <h1>30% Off | Ana Plant</h1>
-                              <p>Shop Now</p>
-                        </div>
-                        <div class="border border-green-800">
-                              <h1>25% Off | Zabo Plant</h1>
-                              <p>Shop Now</p>
-                        </div>
-                        <div class="border border-green-800">
-                              <h1>25% Off | Zabo Plant</h1>
-                              <p>Shop Now</p>
+                        <div
+                              class="bg-[url('/assets/deal-ana.png')] bg-cover bg-center h-[10rem] rounded-lg flex flex-col items-center justify-center col-span-3 md:col-auto">
+                              <h1 class="text-xl font-bold noto-serif-font">30% Off | Ana Plant</h1>
+                              <p class="inter-font underline underline-offset-4 mt-2">Shop Now</p>
                         </div>
                   </div>
             </section>
